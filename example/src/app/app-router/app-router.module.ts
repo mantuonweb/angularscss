@@ -4,6 +4,7 @@ import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
 
 const appRoutes: Routes = [
   { path: 'home', loadChildren: 'app/home/home.module#HomeModule'},
+  { path: 'shadow', loadChildren: 'app/shadow/shadow.module#ShadowModule'},
   { path: '',   redirectTo: '/home', pathMatch: 'full' },
 ];
 
@@ -13,7 +14,6 @@ const appRoutes: Routes = [
     RouterModule.forRoot(
        appRoutes,{ 
         enableTracing: true
-       
       }
     )
   ],
