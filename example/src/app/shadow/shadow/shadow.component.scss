@@ -24,3 +24,52 @@
         // bottom: 0;
     }
 }
+.parentdiv{
+    .cols{
+        div.first {
+                display: inline-block;
+                margin: 20px;
+                background: blue;
+                height: 50px;
+                width: 50px;
+                box-shadow: 5px 5px 5px gray, -5px -5px 5px gray, 5px -5px 5px gray, -5px 5px 5px gray;
+        }
+        div.second {
+                display: inline-block;
+                margin: 20px;
+                background: blue;
+                height: 50px;
+                width: 50px;
+               -webkit-box-shadow: 0 0 10px red;
+                box-shadow: 0 0 10px red;
+        }
+        div.third{
+            display: inline-block;
+            margin: 20px;
+            background: blue;
+            height: 50px;
+            width: 50px;
+            box-shadow: 0 0 10px 5px rgba(99,99,99,0.8);
+        }
+    }
+}
+
+// BlankMasterDashBoardLoadingPanelctl00_AccountContent_RadGridSubscribers
+
+// <div id="BlankMasterDashBoardLoadingPanelctl00_AccountContent_RadGridSubscribers" class="RadAjax RadAjax_MySkin" style="position: absolute; width: 1581px; height: 952px; left: 36px; top: 105px; text-align: center; z-index: 90000; opacity: 1;">
+//     <div class="raDiv">
+        
+        
+//     </div><div class="raColor raTransp">
+
+//     </div>
+// </div>
+
+// <div id="BlankMasterDashBoardLoadingPanelctl00_AccountContent_RadGridSubscribers" class="RadAjax RadAjax_MySkin" style="position: absolute; width: 1937px; height: 1132px; left: 36px; top: 105px; text-align: center; z-index: 90000; opacity: 1;">
+//     <div class="raDiv">
+        
+        
+//     </div><div class="raColor raTransp">
+
+//     </div>
+// </div>
