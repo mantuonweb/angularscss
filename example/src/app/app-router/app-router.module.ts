@@ -6,6 +6,7 @@ const appRoutes: Routes = [
   { path: 'home', loadChildren: 'app/home/home.module#HomeModule'},
   { path: 'gradient', loadChildren: 'app/gradient/gradient.module#GradientModule'},
   { path: 'shadow', loadChildren: 'app/shadow/shadow.module#ShadowModule'},
+  { path: 'animate', loadChildren: 'app/./animate/animate.module#AnimateModule'},
   { path: '',   redirectTo: '/home', pathMatch: 'full' },
 ];
 
